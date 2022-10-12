@@ -6,7 +6,7 @@ var logger = require('morgan');
 const handlebars = require('express-handlebars')
 const apiRouters = require('./routers/api')
 const viewsRouters = require('./routers/views')
-const { errorHandler } = require('./utils/errores') 
+const { errorHandler } = require('./utils/errores')
 require('dotenv').config()
 
 const app = express()
